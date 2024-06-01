@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="section-navbar">
+      <section class="top_txt">
+        <div class="head container">
+          <div class="head_txt">
+            <p>Free shipping, 30-day return of refund guarante.</p>
+          </div>
+          <div class="sing_in_up">
+            <a href="/html/signIN.html">SIGN IN</a>
+            <a href="/html/signUp.html ">SIGN UP</a>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="indx.html">
+            <img
+              src="/img/logo.jpg"
+              alt="sam eCommerce logo"
+              class="logo"
+              width="80%"
+              height="auto"
+            />
+          </a>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li class="nav-item">
+              <a href="./indx.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./about.html" class="nav-link">about</a>
+            </li>
+            <li class="nav-item">
+              <a href="./product.html" class="nav-link">product</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">content</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="addToCart.html"
+                class="nav-item add-to-cart-button"
+                id="cartValue"
+              >
+                <i class="fa-solid fa-cart-shopping"> 0 </i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="section-products container">
+      <div class="">
+        <h2 class="section-common-heading">contact us</h2>
+        <p>Get in touch with us .We are always here to help you</p>
+      </div>
+    </section>
+
+    <div class="containers">
+      <div class="form-container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post" id="myForm">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="address">Address:</label>
+          <input type="text" id="address" name="address" required />
+
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <input class="button" type="submit" value="Submit" />
+        </form>
+      </div>
+      <div class="map-container">
+        <img src="/img/map.JPG" alt="Map Image" />
+      </div>
+    </div>
+
+    <footer class="section-footer">
+      <script src="/Js/footer.js"></script>
+    </footer>
+    <script type="module" src="/main.js"></script>
+    <script src="contact.js"></script>
+  </body>
+</html>
